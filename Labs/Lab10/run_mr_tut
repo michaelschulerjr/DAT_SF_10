@@ -1,0 +1,1 @@
+cat 4300.txt.utf-8.txt | python mapper.py | sort -k1,1 | python reducer.py
