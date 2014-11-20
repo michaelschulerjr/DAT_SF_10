@@ -1,0 +1,22 @@
+IPYTHON NOTES
+- paste # executes any code that is on your clipboard
+- %reset # cleans environment of all code
+
+
+PYTHON DEBUGGER NOTES
+
+Setup 
+- import pdb
+- pdb.set_trace()  # insert into code where you want to start debugging
+
+Commands for Debugging
+- n # next step
+- s # step into subroutine
+- p <variable(s)> # print 
+- l # list (shows code where the debugger is at)
+- ! # use this at start of prompt to execute python commands
+- dir() # display list of variables in environment
+- r # return (continue in subroutine until return)
+- c # continue execution of script
+- q # quit
+- enter at blank prompt repeats last command
