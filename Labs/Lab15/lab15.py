@@ -42,6 +42,10 @@ def cleanData():
 
 def scoreModels(features, target, folds=10):
     "Calcs crovs-validation scores for multiple algorithms"
+    #calling the debugger
+    import pdb
+    pdb.set_trace()
+    
     models = []
     models.append(RandomForestClassifier(random_state=0).fit)
     models.append(LogisticRegression(C=1.0).fit)
@@ -59,6 +63,8 @@ def main():
     scoreModels(features, target)
 
 
+# instead of importing functions, you're calling a specific file so in this case run
+# main
 if __name__ == '__main__':
     main()
 
