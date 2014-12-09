@@ -46,7 +46,7 @@ def scoreModels(features, target, folds=10):
     import pdb
     pdb.set_trace()
     
-    models = []
+    models = [ip]
     models.append(RandomForestClassifier(random_state=0).fit)
     models.append(LogisticRegression(C=1.0).fit)
     models.append(KNeighborsClassifier(3).fit)
